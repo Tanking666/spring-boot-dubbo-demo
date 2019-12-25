@@ -1,0 +1,7 @@
+#启用前先删除application.properties
+server:
+  port: 8000
+  servlet:
+    context-path: /demo
+cust:
+  name: 我再试试
