@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Component
 @PropertySource(value = "classpath:application.properties", ignoreResourceNotFound = true,encoding = "UTF-8" )
 @ConfigurationProperties(prefix = "cust")
-public class ConfigInfo {
+public class Demo_ConfigInfo {
 
 //	@Value("name")
 	private String name;

@@ -18,13 +18,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 //所有方法自带@ResponseBody
 //@RestController
-public class ConfigInfoController {
+public class Demo_ConfigInfoController {
 
 	//自定义变量
+	//暂不知道为何propitis文件 中文加载存在乱码. 最好用yml
 	@Value("${cust.name}")
 	private String name;
 	@Autowired
-	ConfigInfo configInfo;
+	Demo_ConfigInfo configInfo;
 
 	//等价@RequestMapping(value = "/config", method = RequestMethod.GET)
 //	@GetMapping(value = "/config")

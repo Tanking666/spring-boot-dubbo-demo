@@ -1,7 +1,12 @@
 #启用前先删除application.properties
 server:
-  port: 8000
+  port: 80
   servlet:
     context-path: /demo
 cust:
-  name: 我再试试
+  name: 中文字符测试
+logging:
+  level:
+#    默认info
+    root: info
+    top.kxyu.springbootdemo : debug
