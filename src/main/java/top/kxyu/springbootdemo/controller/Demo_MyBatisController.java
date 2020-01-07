@@ -37,7 +37,6 @@ public class Demo_MyBatisController {
 		};
 		for (int i = 0; i < 10000; i++) {
 			threadPoolExecutor.submit(runnable);
-
 //			threadPoolExecutor.submit(() -> {
 //				videoService.getAllVideo();
 //			});
